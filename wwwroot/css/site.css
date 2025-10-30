@@ -1,0 +1,84 @@
+html {
+    font-size: 14px;
+}
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* normal weight */
+    font-style: normal;
+    color: #434343
+}
+.fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #434343
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+.RenderBody{
+    margin:0;
+    padding:0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+    text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+    text-align: start;
+}
+.navbar{
+    padding: 0;
+}
+.MainNav{
+    padding:1.5em;
+    border-bottom: .40em solid #FE5C00;
+}
+.logo {
+    width:9em !important;
+    height:auto !important;
+    margin: 0 !important;
+    padding:0;
+}
+.nav-link.h1-size {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.hero-image {
+    background-image: url('../images/OSUBusinessBuildingHero.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    width: 100vw;
+    height: 32em;
+    margin:0;
+    padding-left:2em;
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.hero-text-bottom-left{
+    background-color: #FE5C00;
+    border-left: solid .10em #f90;
+    color:white;
+    text-align: center;
+    font-size: 9em;
+    padding: 0.15em;
+}
