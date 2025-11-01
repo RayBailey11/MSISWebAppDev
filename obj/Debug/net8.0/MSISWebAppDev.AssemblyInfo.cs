@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MSISWebAppDev")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+864566e1523984688027fd9704be8307f6524e59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0e810b6c4bad2fb542f6406d816946b6bdcab33")]
 [assembly: System.Reflection.AssemblyProductAttribute("MSISWebAppDev")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MSISWebAppDev")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

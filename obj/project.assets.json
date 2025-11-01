@@ -8,24 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\rayba\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\raysp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rayba\\RiderProjects\\MSISWebAppDev\\MSISWebAppDev.csproj",
+      "projectUniqueName": "C:\\Users\\raysp\\RiderProjects\\MSISWebAppDev\\MSISWebAppDev.csproj",
       "projectName": "MSISWebAppDev",
-      "projectPath": "C:\\Users\\rayba\\RiderProjects\\MSISWebAppDev\\MSISWebAppDev.csproj",
-      "packagesPath": "C:\\Users\\rayba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rayba\\RiderProjects\\MSISWebAppDev\\obj\\",
+      "projectPath": "C:\\Users\\raysp\\RiderProjects\\MSISWebAppDev\\MSISWebAppDev.csproj",
+      "packagesPath": "C:\\Users\\raysp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\raysp\\RiderProjects\\MSISWebAppDev\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\rayba\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\raysp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -45,11 +40,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -74,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\rayba\\.dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
