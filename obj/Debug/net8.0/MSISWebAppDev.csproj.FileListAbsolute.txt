@@ -29,3 +29,4 @@ C:\Users\rayba\RiderProjects\MSISWebAppDev\obj\Debug\net8.0\refint\MSISWebAppDev
 C:\Users\rayba\RiderProjects\MSISWebAppDev\obj\Debug\net8.0\MSISWebAppDev.pdb
 C:\Users\rayba\RiderProjects\MSISWebAppDev\obj\Debug\net8.0\MSISWebAppDev.genruntimeconfig.cache
 C:\Users\rayba\RiderProjects\MSISWebAppDev\obj\Debug\net8.0\ref\MSISWebAppDev.dll
+C:\Users\rayba\RiderProjects\MSISWebAppDev\obj\Debug\net8.0\MSISWebAppDev.sourcelink.json

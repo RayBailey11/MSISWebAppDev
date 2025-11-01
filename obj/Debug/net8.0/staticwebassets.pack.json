@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Images\\OSUBusinessBuildingHero.jpg"
     },
     {
+      "Id": "C:\\Users\\rayba\\RiderProjects\\MSISWebAppDev\\wwwroot\\Images\\OSUComputerStudent.jpg",
+      "PackagePath": "staticwebassets\\Images\\OSUComputerStudent.jpg"
+    },
+    {
       "Id": "C:\\Users\\rayba\\RiderProjects\\MSISWebAppDev\\wwwroot\\Images\\OSULOGO.png",
       "PackagePath": "staticwebassets\\Images\\OSULOGO.png"
     },

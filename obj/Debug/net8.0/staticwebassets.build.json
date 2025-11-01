@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eVJqbTIfvv595Lj4MBf1O0gDvflMhDLy0ZKc7RzTxLs=",
+  "Hash": "YtOBUeBUmvALx3OpT1x+OwryiVejUvjYqcENEtFITaU=",
   "Source": "MSISWebAppDev",
   "BasePath": "_content/MSISWebAppDev",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\OSUBusinessBuildingHero.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rayba\\RiderProjects\\MSISWebAppDev\\wwwroot\\Images\\OSUComputerStudent.jpg",
+      "SourceId": "MSISWebAppDev",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rayba\\RiderProjects\\MSISWebAppDev\\wwwroot\\",
+      "BasePath": "_content/MSISWebAppDev",
+      "RelativePath": "Images/OSUComputerStudent.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\OSUComputerStudent.jpg"
     },
     {
       "Identity": "C:\\Users\\rayba\\RiderProjects\\MSISWebAppDev\\wwwroot\\Images\\OSULOGO.png",
