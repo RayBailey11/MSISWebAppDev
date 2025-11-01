@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JhM5qjd38puwuatIp/yLSVw8uF7/lN306jN9gigHWLk=",
+  "Hash": "rsyzISFiGJjqZjWl+ZWJrSBFmZ7fNf1s/RFu35f+jNU=",
   "Source": "MSISWebAppDev",
   "BasePath": "_content/MSISWebAppDev",
   "Mode": "Default",
@@ -93,6 +93,25 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\raysp\\RiderProjects\\MSISWebAppDev\\wwwroot\\Images\\OSUBusinessBuildingFog.jpg",
+      "SourceId": "MSISWebAppDev",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\raysp\\RiderProjects\\MSISWebAppDev\\wwwroot\\",
+      "BasePath": "_content/MSISWebAppDev",
+      "RelativePath": "Images/OSUBusinessBuildingFog.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\OSUBusinessBuildingFog.jpg"
+    },
+    {
       "Identity": "C:\\Users\\raysp\\RiderProjects\\MSISWebAppDev\\wwwroot\\Images\\OSUBusinessBuildingHero.jpg",
       "SourceId": "MSISWebAppDev",
       "SourceType": "Discovered",
@@ -148,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\OSUComputerStudent.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\raysp\\RiderProjects\\MSISWebAppDev\\wwwroot\\Images\\OSULibrary.jpg",
+      "SourceId": "MSISWebAppDev",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\raysp\\RiderProjects\\MSISWebAppDev\\wwwroot\\",
+      "BasePath": "_content/MSISWebAppDev",
+      "RelativePath": "Images/OSULibrary.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\OSULibrary.jpg"
     },
     {
       "Identity": "C:\\Users\\raysp\\RiderProjects\\MSISWebAppDev\\wwwroot\\Images\\OSULOGO.png",

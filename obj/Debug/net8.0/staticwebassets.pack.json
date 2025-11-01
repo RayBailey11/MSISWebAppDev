@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\MSISWebAppDev.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\raysp\\RiderProjects\\MSISWebAppDev\\wwwroot\\Images\\OSUBusinessBuildingFog.jpg",
+      "PackagePath": "staticwebassets\\Images\\OSUBusinessBuildingFog.jpg"
+    },
+    {
       "Id": "C:\\Users\\raysp\\RiderProjects\\MSISWebAppDev\\wwwroot\\Images\\OSUBusinessBuildingHero.jpg",
       "PackagePath": "staticwebassets\\Images\\OSUBusinessBuildingHero.jpg"
     },
@@ -19,6 +23,10 @@
     {
       "Id": "C:\\Users\\raysp\\RiderProjects\\MSISWebAppDev\\wwwroot\\Images\\OSULOGO.png",
       "PackagePath": "staticwebassets\\Images\\OSULOGO.png"
+    },
+    {
+      "Id": "C:\\Users\\raysp\\RiderProjects\\MSISWebAppDev\\wwwroot\\Images\\OSULibrary.jpg",
+      "PackagePath": "staticwebassets\\Images\\OSULibrary.jpg"
     },
     {
       "Id": "C:\\Users\\raysp\\RiderProjects\\MSISWebAppDev\\wwwroot\\css\\site.css",
