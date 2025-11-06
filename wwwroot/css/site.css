@@ -28,10 +28,6 @@ html {
     }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
 html {
     position: relative;
     min-height: 100%;
@@ -61,7 +57,7 @@ body {
     border-bottom: .40em solid #FE5C00;
 }
 .logo {
-    width:12em !important;
+    width:15em !important;
     height:auto !important;
     margin: 0 !important;
     padding:0;
@@ -70,6 +66,7 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 1.2;
+    margin-right: 2em;
 }
 
 /*Hero Image*/
@@ -131,21 +128,6 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center;
-}
-@media (max-width: 768px) {
-    .container1 {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .container1photo {
-        margin-top: 20px;
-    }
-
-    .OSUComputerStudent {
-        width: 250px;
-        height: 250px;
-    }
 }
 
 /*Button Styling*/
@@ -319,7 +301,28 @@ body {
     text-decoration: none;
 }
 /*Page Resposivness*/
-@media (max-width: 992px) {
+@media (max-width: 1300px) {
+    .hero-section {
+        height: calc(100vh - 230px);
+    }
+    .navbar .container-fluid {
+        flex-direction: column;     
+    }
+
+    .navbar .logo,
+    .navbar h1,
+    .navbar .btn {
+        margin-bottom: 1em;        
+    }
+
+    .navbar .logo:last-child,
+    .navbar h1:last-child,
+    .navbar .btn:last-child {
+        margin-bottom: 0;           
+    }
+    .container1text {
+        margin:5em;
+    }
     .nav-text {
         font-size: 1.5rem;
     }
@@ -334,8 +337,20 @@ body {
     .footer-bottom {
         flex-direction: column;
     }
+    .back-to-top-btn {
+        position: absolute;
+        top: -2.5em;
+        right: 2em;
+    }
 }
 @media (max-width: 600px) {
+    
+    .container1text {
+       margin:3em;
+    }
+    .hero-section {
+        height: calc(100vh - 230px);
+    }
     .hero-text-bottom-left {
         font-size: 1.5rem;
         padding: 0.5em;

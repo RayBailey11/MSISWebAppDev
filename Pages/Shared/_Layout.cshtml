@@ -4,88 +4,87 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>@ViewData["Title"] - Assignment6</title>
-    <script type="importmap"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
     <link rel="stylesheet" href="~/Assignment6.styles.css" asp-append-version="true"/>
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-@*NavBar*@
-<header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
-        <div class="MainNav container-fluid">
-            <a class="navbar-brand" asp-area="" asp-page="/Index">
-                <img class="logo" src="~/images/OSULOGO.png" alt="My Photo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <h1 class="nav-text fjalla-one-regular h1">MSIS 4363 - Advanced Application Development</h1>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav-right rubik">
-                <a href="https://apps.okstate.edu/portal/osu/" target="_blank" class="btn">
-                    <span>myOKState</span>
+    @* NavBar *@
+    <header>
+        <nav class="navbar bg-white border-bottom box-shadow">
+            <div class="container-fluid d-flex flex-lg-row flex-column align-items-center justify-content-lg-between text-center py-3">
+
+                <!-- Logo -->
+                <a class="navbar-brand mb-2 mb-lg-0" asp-area="" asp-page="/Index">
+                    <img class="logo" src="~/images/OSULOGO.png" alt="OSU Logo">
                 </a>
-            </div>
-        </div>
-    </nav>
-</header>
-<div class="RenderBody container-fluid">
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
-</div>
 
-@*Footer*@
-<footer class="custom-footer">
-    <div class="footer-top">
-        <h3 class="course-title fjalla-one-regular">MSIS 4363 - Advanced Application Development</h3>
+                <!-- Title -->
+                <h1 class="nav-text fjalla-one-regular h1 mb-3 mb-lg-0">
+                    MSIS 4363 - Advanced Application Development
+                </h1>
 
-        <a href="#top" class="back-to-top-btn">
-            &#8679; Back to Top
-        </a>
+                <!-- myOKState Button -->
+                <a href="https://apps.okstate.edu/portal/osu/" target="_blank" class="btn rubik">
+                    myOKState
+                </a>
 
-        <div class="footer-info">
-            <div class="footer-left fjalla-one-regular">
-                Spears School of Business
             </div>
-            <div class="footer-right">
-                Oklahoma State University<br>
-                Stillwater, OK 74078 (<a href="https://map.okstate.edu/?id=1842#!ct/65027,65025,65026?m/522452?s/business%20building">map</a>)<br>
-                405-744-5064 | <a href="https://business.okstate.edu/bssc/visit_spears.html">Contact Us</a>
-            </div>
-        </div>
+        </nav>
+    </header>
+
+
+    <div class="RenderBody container-fluid">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
     </div>
 
-    <div class="footer-bottom">
-        <a href="https://go.okstate.edu/" class="osu-logo">
-            <img src="~/images/OSULOGO.png" alt="OSU Logo">
-        </a>
-        <span class="osu-text">
-            <a href="https://go.okstate.edu/">Oklahoma State University</a>
-        </span>
-    </div>
-</footer>
+    @* Footer *@
+    <footer class="custom-footer">
+        <div class="footer-top">
+            <h3 class="course-title fjalla-one-regular">MSIS 4363 - Advanced Application Development</h3>
 
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="~/js/site.js" asp-append-version="true"></script>
+            <a href="#top" class="back-to-top-btn">
+                &#8679; Back to Top
+            </a>
 
-@await RenderSectionAsync("Scripts", required: false)
+            <div class="footer-info">
+                <div class="footer-left fjalla-one-regular">
+                    Spears School of Business
+                </div>
+                <div class="footer-right">
+                    Oklahoma State University<br>
+                    Stillwater, OK 74078 
+                    (<a href="https://map.okstate.edu/?id=1842#!ct/65027,65025,65026?m/522452?s/business%20building">map</a>)<br>
+                    405-744-5064 | 
+                    <a href="https://business.okstate.edu/bssc/visit_spears.html">Contact Us</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <a href="https://go.okstate.edu/" class="osu-logo">
+                <img src="~/images/OSULOGO.png" alt="OSU Logo">
+            </a>
+            <span class="osu-text">
+                <a href="https://go.okstate.edu/">Oklahoma State University</a>
+            </span>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
